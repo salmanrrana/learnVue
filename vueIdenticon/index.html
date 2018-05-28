@@ -1,0 +1,21 @@
+<div id="app">
+  <h3>My Identicon Generator</h3>
+
+  <div>
+    Input:
+    <input v-on:input="onInput" />
+  </div>
+
+  <div>
+    Output:
+    <div v-html="identicon"></div>
+  </div>
+</div>
+
+<!-- can also have it like this where we create the template in the js file:
+majority of projects in the real workd will take this approach
+documentation will usually show the above -->
+
+<!-- <div id="app">
+
+</div> -->
