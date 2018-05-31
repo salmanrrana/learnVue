@@ -1,5 +1,5 @@
 <template>
-  <div class="ui secondary pointing menu">
+  <div id="header" class="ui secondary pointing menu">
     <router-link to="/" class="active item">Image Storage</router-link>
 
     <div class="right menu">
